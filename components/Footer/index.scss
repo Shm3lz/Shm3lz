@@ -1,0 +1,33 @@
+@use "node_modules/breakpoint-slicer" as bs;
+
+.footer {
+	padding: 2rem 0 1rem 0;
+	margin-top: 1rem;
+
+	&__contacts {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		@include bs.to(s) {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: .5rem;
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	
+	@include bs.from(m) {
+		margin-top: 2rem;
+	}
+
+	&__contact + &__contact {
+		@include bs.from(s) {
+			margin-left: 1.5rem;
+		}
+	}
+}

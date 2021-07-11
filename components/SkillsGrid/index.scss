@@ -1,0 +1,15 @@
+@use "node_modules/breakpoint-slicer" as bs;
+
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+
+	@include bs.at(m) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@include bs.to(s) {
+		display: block;
+	}
+}

@@ -1,14 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import Resume from "../components/Resume";
 
 export default function Index() {
-  return (
-    <div>
-      <main>
-      </main>
-
-      <footer>
-      </footer>
-    </div>
-  )
+	return (
+		<Resume />
+	);
 }

@@ -1,0 +1,22 @@
+.skill-card {
+	display: flex;
+
+	&__img {
+		min-width: 70px;
+		min-height: 70px;
+
+		position: relative;
+	}
+	
+	&__name {
+		margin: 0;
+	}
+
+	&__subtitle {
+		font-size: .75rem;
+	}
+
+	&__hint {
+		font-size: .9rem;
+	}
+}

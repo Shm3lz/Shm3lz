@@ -1,17 +1,15 @@
+import Footer from "../Footer"
+
 const Layout: React.FC = ({ children }) => {
     return (
         <>
-            <header>
+			<div className="container">
+				<main>
+					{children}
+				</main>
+			</div>
 
-            </header>
-
-            <main>
-                {children}
-            </main>
-
-            <footer>
-                
-            </footer>
+			<Footer />
         </>
     );
 }

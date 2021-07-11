@@ -1,0 +1,44 @@
+@use "node_modules/breakpoint-slicer" as bs;
+
+.summary {
+	margin: 0 1rem 1rem 0;
+	padding: 15px 20px;
+	border: .5px solid rgb(228, 228, 228);
+	border-radius: 5px;
+	background-color: rgb(253, 253, 253);
+
+	@include bs.to(m) {
+		margin-right: 0;
+	}
+
+	&__tag {
+		margin-bottom: 0;
+		margin-top: 0;
+		font-size: 2rem;
+
+		@include bs.to(m) {
+			text-align: center;
+		}
+	}
+
+	&__name, &__age, &__geo, &__prof, &__download {
+		margin: 0 0 .3rem 0;
+		text-align: center;
+	}
+
+	&__city {
+		margin-left: .35rem;
+	}
+
+	&__socials {
+		margin-top: .5rem;
+	}
+	
+	&__download {
+		margin-top: 2rem;
+		font-size: .85rem;
+		text-decoration: underline;
+	}
+
+	// &__
+}

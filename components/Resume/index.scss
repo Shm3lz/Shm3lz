@@ -1,0 +1,23 @@
+@use "node_modules/breakpoint-slicer" as bs;
+
+.resume {
+	display: flex;
+	align-items: flex-start;
+
+	&__meta {
+		position: sticky;
+		top: 5vh;
+	}
+
+	&__main {
+		padding: 0 5px;
+	}
+
+	@include bs.to(m) {
+		display: block;
+
+		&__meta {
+			position: static;
+		}
+	}
+}
