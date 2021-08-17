@@ -9,8 +9,8 @@ const SkillCard: React.FC = () => {
 			<div className="skill-card__info">
 				<h3 className="skill-card__name">React</h3>
 				<div className="skill-card__subtitle">2+ years experience</div>
-				<div className="skill-card__hint">Lorem ipsum, dolor sit amet consectetur adipisicing elit</div>
 			</div>
+			<div className="skill-card__description">Creating static websites with SSG and ISR</div>
 		</div>
 	);
 }

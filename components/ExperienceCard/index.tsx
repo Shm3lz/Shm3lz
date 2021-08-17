@@ -11,6 +11,7 @@ const ExperienceCard: React.FC = () => {
 				<h3 className="experience-card__title">Yandex</h3>
 				<div className="experience-card__duration">Nov. 2020 - March 2021</div>
 				<div className="experience-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia error quidem cum eius recusandae, iure voluptatibus. Ex consequuntur illo numquam quas nam enim dolorem quasi perspiciatis soluta? Magni, dolores maxime!</div>
+				<div className="experience-card__more">More...</div>
 			</div>
 		</div>
 	);

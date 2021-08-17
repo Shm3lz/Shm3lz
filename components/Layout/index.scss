@@ -1,12 +1,17 @@
+@use 'node_modules/breakpoint-slicer' as bs;
 @import '../../styles/colors.scss';
 
 .container {
-	margin-top: 5vh;
+	padding-top: 5vh;
 	display: flex;
 	justify-content: center;
 
 	main {
 		width: 80vw;
 		max-width: 1200px;
+
+		@include bs.to(s) {
+			width: 100%;
+		}
 	}
 }

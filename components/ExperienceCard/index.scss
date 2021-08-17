@@ -3,7 +3,7 @@
 .experience-card {
 	display: flex;
 	align-items: center;
-	padding: 1rem;
+	padding: 1rem 0;
 	flex: 1;
 	justify-content: start;
 
@@ -11,6 +11,8 @@
 		border: 1px solid rgb(224, 224, 224);
 		border-radius: 5px;
 		margin: 5px;
+		padding-bottom: 5px;
+		background: #FFF;
 	}
 
 
@@ -50,6 +52,19 @@
 
 		@include bs.to(s) {
 			display: none;;
+		}
+	}
+
+	&__more {
+		display: none;
+		cursor: pointer;
+
+		@include bs.to(s) {
+			display: block;
+			margin-top: .6rem;
+			font-size: .8rem;
+			text-decoration: underline;
+			color: rgb(83, 83, 83);
 		}
 	}
 }
