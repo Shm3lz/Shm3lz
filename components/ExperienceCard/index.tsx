@@ -1,16 +1,16 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
-const ExperienceCard: React.FC = () => {
+const ExperienceCard: React.FC<{ data: ExperienceItem }> = ({ data }) => {
 	return (
 		<div className="experience-card">
-			<div className="experience-card__img">
-				<Image objectFit="contain" layout="fill" src="https://i0.wp.com/apptractor.ru/wp-content/uploads/2017/03/yandex.png?w=512&ssl=1" ></Image>
-			</div>
+			{data.img && <div className="experience-card__img">
+					<Image objectFit="contain" layout="fill" src={data.img.src} alt={data.img.alt} ></Image>
+				</div>
+			}
 			<div className="experience-card__info">
-				<h3 className="experience-card__title">Yandex</h3>
-				<div className="experience-card__duration">Nov. 2020 - March 2021</div>
-				<div className="experience-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia error quidem cum eius recusandae, iure voluptatibus. Ex consequuntur illo numquam quas nam enim dolorem quasi perspiciatis soluta? Magni, dolores maxime!</div>
+				<h3 className="experience-card__title">{data.title}</h3>
+				<div className="experience-card__duration">{data.durationStart}{data.durationEnd && ` - ${data.durationEnd}`}</div>
+				<div className="experience-card__description">{data.description}</div>
 				<div className="experience-card__more">More...</div>
 			</div>
 		</div>

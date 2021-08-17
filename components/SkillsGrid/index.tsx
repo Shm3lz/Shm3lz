@@ -1,19 +1,15 @@
 import SkillCard from '../SkillCard';
 
-const SkillsGrid: React.FC = () => {
+interface SkillsGridProps {
+	items: SkillItem[];
+}
+
+const SkillsGrid: React.FC<SkillsGridProps> = ({ items }) => {
 	return (
 		<div className="skills-grid">
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
-			<SkillCard />
+			{items.map((item, index) => (
+				<SkillCard key={index} data={item} />
+			))}
 		</div>
 	);
 }

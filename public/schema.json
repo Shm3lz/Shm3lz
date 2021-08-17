@@ -1,0 +1,155 @@
+{
+	"meta": {
+		"tag": "@shm3lz",
+		"name": "Vlad Yeliseev",
+		"age": 20,
+		"prof": "Frontend dev",
+		"location": "Moscow"
+	},
+	"bio": "lorem",
+	"experience": [
+		{
+			"title": "Freelance",
+			"durationStart": "Up to now",
+			"description": "Learning new technologies, studying and practicing. Currently working on online sneakes store's transition from shopify to Next.js+.NET"
+		},
+		{
+			"title": "Frontend dev in Yandex",
+			"durationStart": "Nov. 2019",
+			"durationEnd": "March 2020",
+			"description": "Working as frontend developer in Yandex.Messenger with React/Redux/SCSS stack, writing gemini/hermione e2e tests and making i18n."
+		},
+		{
+			"title": "BMSTU enrollment and web development start",
+			"durationStart": "Sept. 2018",
+			"description": "Enrolled to BMSTU on \"Information processing and control systems\", also started to learn web development, developed several browser plugins for Firefox. Learned Vue and React, but prefered to continue with developing web apps on React.js mainly."
+		}
+	],
+	"skillsSections": [
+		{
+			"title": "Main skills",
+			"skills": [
+				{
+					"name": "React",
+					"img": { "src": "/react-icon.svg", "alt": "React icon" },
+					"subtitle": "~2 years experience",
+					"description": "Creating interactive and reactive apps",
+					"href": "https://reactjs.org/"
+				},
+				{
+					"name": "Typescript",
+					"img": { "src": "/typescript.png", "alt": "Typescript icon" },
+					"subtitle": "Over 1 year experience",
+					"description": "Who's not using static typing in 2021 yet?"
+				},
+				{
+					"name": "SASS",
+					"img": { "src": "/sass.png", "alt": "SASS icon" },
+					"subtitle": "Prefer it over css",
+					"description": "Too comfortable to ignore"
+				},
+				{
+					"name": "Next.js",
+					"img": { "src": "/next-js.svg", "alt": "Next.js icon" },
+					"subtitle": "1< year experience",
+					"description": "Creating fast, interactive and seo-friendly static web apps"
+				},
+				{
+					"name": "Redux",
+					"img": { "src": "/redux.png", "alt": "Redux icon" },
+					"subtitle": "~2 years experience",
+					"description": "Provides good state management replacement for react context"
+				},
+				{
+					"name": "Webpack",
+					"img": { "src": "/webpack.svg", "alt": "Webpack icon" },
+					"subtitle": "Oh these declarative configs..."
+				},
+				{
+					"name": "Storybook",
+					"img": { "src": "/storybook.svg", "alt": "Storybook icon" },
+					"subtitle": "Impressive ui development tool",
+					"description": "I use it in almost every big project"
+				},
+				{
+					"name": "Node.js",
+					"img": { "src": "/node.png", "alt": "Node icon" },
+					"subtitle": "Basic JavaScript environment"
+				},
+				{
+					"name": "BEM", 
+					"subtitle": "CSS methodology",
+					"description": "Strict order and rules in writing styles"
+				}
+			]
+		},
+		{
+			"title": "Other skills",
+			"skills": [
+				{
+					"name": "React Native",
+					"img": { "src": "/react-icon.svg", "alt": "React Native icon" },
+					"subtitle": "Wrote time management app for android"
+				},
+				{
+					"name": "Vue.js",
+					"img": { "src": "/vue.png", "alt": "Vue icon" },
+					"subtitle": "My first experience in making reactive apps"
+				},
+				{
+					"name": "Puppeteer",
+					"subtitle": "For e2e tests"
+				},
+				{
+					"name": "Electron",
+					"img": { "src": "/electron.svg", "alt": "Electron icon" },
+					"subtitle": "Experienced in making several desktop apps"
+				},
+				{
+					"name": "NW.js",
+					"img": { "src": "/node-webkit.svg", "alt": "Nw icon" },
+					"subtitle": "Electron alternative"
+				},
+				{
+					"name": "Express.js",
+					"img": { "src": "/express.png", "alt": "Express icon" },
+					"subtitle": "Used to write simple backends"
+				},
+				{
+					"name": "C++/Qt",
+					"subtitle": "Used to create interfaces even at school"
+				},
+				{
+					"name": "Python",
+					"subtitle": "Handy for writing scripts"
+				}
+			]
+		},
+		{
+			"title": "Interested in",
+			"skills": [
+				{
+					"name": "Svelte",
+					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
+					"subtitle": "Getting more and more popular"
+				},
+				{
+					"name": "Sveltkit",
+					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
+					"subtitle": "At least some Next.js alternative in Svelte community"
+				},
+				{
+					"name": "ClojureScript",
+					"img": { "src": "/clojure.svg", "alt": "ClJs icon" },
+					"subtitle": "For frontend languages variety",
+					"description": "Someone says FP is a mess, someone adores it. I need to try."
+				},
+				{
+					"name": "Nest.js",
+					"img": { "src": "/nest.svg", "alt": "Nest icon" },
+					"subtitle": "May be I'll become fullstack one day"
+				}
+			]
+		}
+	]
+}

@@ -8,7 +8,7 @@
 
 	main {
 		width: 80vw;
-		max-width: 1200px;
+		max-width: 1000px;
 
 		@include bs.to(s) {
 			width: 100%;

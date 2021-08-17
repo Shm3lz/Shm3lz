@@ -13,24 +13,23 @@ const TimeDot: React.FC<{ color?: string }> = ({ color = '#8DAA9D' }) => {
 	return <div style={style} className="experience-list__timedot"></div>;
 }
 
-const ExperienceList: React.FC = () => {
+interface ExperienceListProps {
+	items: ExperienceItem[];
+}
+
+const ExperienceList: React.FC<ExperienceListProps> = ({ items }) => {
 	return (
 		<ul className="experience-list">
-			<li className="experience-list__item" style={{ animationDelay: '2s' }}>
-				{/* <TimeLine color="red" /> */}
-				<TimeDot />
-				<ExperienceCard />
-			</li>
-			<li className="experience-list__item" style={{ animationDelay: '1s' }}>
-				{/* <TimeLine /> */}
-				<TimeDot />
-				<ExperienceCard />
-			</li>
-			<li className="experience-list__item">
-				{/* <TimeLine /> */}
-				<TimeDot />
-				<ExperienceCard />
-			</li>
+			{items.map((item, index) => (
+				<li
+					className="experience-list__item"
+					key={index}
+					style={{ animationDelay: `${items.length - index - 1}s`}}
+				>
+					<TimeDot />
+					<ExperienceCard data={item} />
+				</li>
+			))}
 		</ul>
 	);
 }

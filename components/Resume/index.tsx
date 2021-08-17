@@ -1,33 +1,25 @@
 import ResumeInfo from '../ResumeInfo';
 import ResumeSummarySection from '../ResumeSummarySection';
 
-interface ExperienceItem {
-	name: string;
-	img: string;
-	start: string;
-	end: string;
-}
-
-interface SkillSubSection {
-	name: string;
-	img: string;
-	duraction: string;
-}
-
 export interface ResumeProps {
-	bio?: string;
-	expirience?: Array<ExperienceItem>;
-	skills?: Array<SkillSubSection>
+	meta: MetaInfo;
+	bio: string;
+	experience: Array<ExperienceItem>;
+	skills: Array<SkillSectionData>
 }
 
-const Resume: React.FC<ResumeProps> = ({ bio, expirience, skills }) => {
+const Resume: React.FC<ResumeProps> = ({ meta, bio, experience, skills }) => {
 	return (
 		<div className="resume">
 			<section className="resume__meta">
-				<ResumeSummarySection />
+				<ResumeSummarySection data={meta} />
 			</section>
 			<section className="resume__main">
-				<ResumeInfo />
+				<ResumeInfo
+					bio={bio}
+					experience={experience}
+					skillSections={skills}	
+				/>
 			</section>
 		</div>
 	);

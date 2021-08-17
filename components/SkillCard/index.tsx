@@ -1,16 +1,22 @@
 import Image from 'next/image';
 
-const SkillCard: React.FC = () => {
+interface SkillCardProps {
+	data: SkillItem;
+}
+
+const SkillCard: React.FC<SkillCardProps> = ({ data }) => {
+	const className = `skill-card${data.img ? ' skill-card_with-img' : ''}${data.description ? ' skill-card_description' : ''}`;
 	return (
-		<div className="skill-card">
-			<div className="skill-card__img">
-				<Image objectFit="contain" layout="fill" src="/1280px-React-icon.svg.png" ></Image>
-			</div>
+		<div className={className}>
+			{data.img && <div className="skill-card__img">
+					<Image width={48} height={48} src={data.img.src} alt={data.img.alt}></Image>
+				</div>
+			}
 			<div className="skill-card__info">
-				<h3 className="skill-card__name">React</h3>
-				<div className="skill-card__subtitle">2+ years experience</div>
+				<h3 className="skill-card__name">{data.name}</h3>
+				<div className="skill-card__subtitle">{data.subtitle}</div>
 			</div>
-			<div className="skill-card__description">Creating static websites with SSG and ISR</div>
+			{data.description && <div className="skill-card__description">{data.description}</div>}
 		</div>
 	);
 }
