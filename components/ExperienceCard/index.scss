@@ -36,7 +36,6 @@
 		flex: 1;
 
 		@include bs.to(s) {
-			text-align: center;
 			margin: 0;
 		}
 	}

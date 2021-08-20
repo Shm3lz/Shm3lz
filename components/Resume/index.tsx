@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 import ResumeInfo from '../ResumeInfo';
 import ResumeSummarySection from '../ResumeSummarySection';
 
@@ -13,7 +15,9 @@ const Resume: React.FC<ResumeProps> = ({ meta, bio, experience, skills }) => {
 	return (
 		<div className="resume">
 			<section className="resume__meta">
-				<ResumeSummarySection data={meta} />
+				<motion.div initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.4 }}>
+					<ResumeSummarySection data={meta} />
+				</motion.div>
 			</section>
 			<section className="resume__main">
 				<ResumeInfo

@@ -22,6 +22,10 @@
 		}
 	}
 
+	&__main {
+		margin-bottom: 2rem;
+	}
+
 	&__name, &__age, &__geo, &__prof, &__download {
 		margin: 0 0 .3rem 0;
 		text-align: center;
