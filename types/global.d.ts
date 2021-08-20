@@ -31,3 +31,9 @@ interface SkillItem {
 	description?: string;
 	href?: string;
 }
+
+type I18n = (key: string) => string;
+
+interface LocalesDictionary {
+	[key: string]: LocalesDictionary | { [key: Locales]: string };
+}

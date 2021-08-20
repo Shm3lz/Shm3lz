@@ -3,7 +3,7 @@ import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
 
 import Footer from "../Footer"
-import { Locales } from '../../locales';
+import { Locales } from '../../i18n/locales';
 
 const LocaleButton: React.FC<{ selected?: boolean, href: string, locale?: string }> = ({ href, locale, selected, children }) => {
 	const cls = useMemo(() => `locales__button${selected ? ' locales__button-selected' : ''}`, [selected]);

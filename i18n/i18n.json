@@ -1,0 +1,12 @@
+{
+	"resume_info": {
+		"about_title": {
+			"ru": "Обо мне",
+			"en": "About"
+		},
+		"experience_title": {
+			"ru": "Опыт",
+			"en": "Experience"
+		}
+	}
+}

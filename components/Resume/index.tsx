@@ -5,10 +5,11 @@ export interface ResumeProps {
 	meta: MetaInfo;
 	bio: string;
 	experience: Array<ExperienceItem>;
-	skills: Array<SkillSectionData>
+	skills: Array<SkillSectionData>;
 }
 
 const Resume: React.FC<ResumeProps> = ({ meta, bio, experience, skills }) => {
+
 	return (
 		<div className="resume">
 			<section className="resume__meta">

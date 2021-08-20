@@ -2,6 +2,7 @@ import { BsGeoAlt } from 'react-icons/bs';
 import Link from 'next/link';
 import ResumeSocialsList from '../ResumeSocialsList';
 import { useRouter } from 'next/dist/client/router';
+import { Locales } from '../../i18n/locales';
 
 const ResumeSummarySection: React.FC<{ data: MetaInfo  }>= ({ data }) => {
 	const { locale } = useRouter();
@@ -14,9 +15,10 @@ const ResumeSummarySection: React.FC<{ data: MetaInfo  }>= ({ data }) => {
 				<div className="summary__prof">{data.prof}</div>
 				<div className="summary__geo"><BsGeoAlt /><span className="summary__city">{data.location}</span></div>
 			</div>
-			<div className="summary__download">
-				<Link href="/cv.pdf"><a>Download CV</a></Link>
-			</div>
+			{locale === Locales.RU && <div className="summary__download">
+					<Link href="/cv.pdf"><a>Скачать CV</a></Link>
+				</div>
+			}
 			<div className="summary__socials">
 				<ResumeSocialsList />
 			</div>
