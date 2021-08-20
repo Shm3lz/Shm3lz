@@ -10,21 +10,21 @@ const ResumeSummarySection: React.FC<{ data: MetaInfo  }>= ({ data }) => {
 	const { locale } = useRouter();
 	return (
 		<div className="summary">
-		<div className="summary__main">
-			<h1 className="summary__tag">{data.tag}</h1>
-			<div className="summary__name">{data.name}</div>
-			<div className="summary__age">{data.age} y. o.</div>
-			<div className="summary__prof">{data.prof}</div>
-			<div className="summary__geo"><BsGeoAlt /><span className="summary__city">{data.location}</span></div>
-		</div>
-		{locale === Locales.RU && <div className="summary__download">
-				<Link href="/cv.pdf"><a>Скачать CV</a></Link>
+			<div className="summary__main">
+				<h1 className="summary__tag">{data.tag}</h1>
+				<div className="summary__name">{data.name}</div>
+				<div className="summary__age">{data.age} y. o.</div>
+				<div className="summary__prof">{data.prof}</div>
+				<div className="summary__geo"><BsGeoAlt /><span className="summary__city">{data.location}</span></div>
 			</div>
-		}
-		<div className="summary__socials">
-			<ResumeSocialsList />
+			{locale === Locales.RU && <div className="summary__download">
+					<Link href="/cv.pdf"><a>Скачать CV</a></Link>
+				</div>
+			}
+			<div className="summary__socials">
+				<ResumeSocialsList />
+			</div>
 		</div>
-	</div>
 	);
 }
 
