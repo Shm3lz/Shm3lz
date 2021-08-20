@@ -6,12 +6,12 @@
 		"prof": "Frontend dev",
 		"location": "Moscow"
 	},
-	"bio": "lorem",
+	"bio": "I am frontend developer from Moscow, involved into creating interactive, fast, reliable and sightly UI. I'm working with React/Redux/SASS/Typescript stack, but always ready to learn new things. As I am self-taught developer, I study very quickly and can master some new techology in a short period of time if I have to. I love when I get feedback from my work, so frontend (where your job is to make UI that people see almost immediately) is a perfect ground for my self-fulfillment.",
 	"experience": [
 		{
 			"title": "Freelance",
 			"durationStart": "Up to now",
-			"description": "Learning new technologies, studying and practicing. Currently working on online sneakes store's transition from shopify to Next.js+.NET"
+			"description": "Learning new technologies, studying and practicing. Currently working on online sneakers store's transition from shopify to Next.js+.NET"
 		},
 		{
 			"title": "Frontend dev in Yandex",
@@ -70,6 +70,12 @@
 					"img": { "src": "/storybook.svg", "alt": "Storybook icon" },
 					"subtitle": "Impressive ui development tool",
 					"description": "I use it in almost every big project"
+				},
+				{
+					"name": "ESlint",
+					"img": { "src": "/eslint.png", "alt": "eslint icon" },
+					"subtitle": "Hygiene",
+					"description": "Especially with precommit hooks"
 				},
 				{
 					"name": "Node.js",

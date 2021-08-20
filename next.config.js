@@ -1,5 +1,6 @@
 module.exports = {
-	images: {
-		domains: ['i0.wp.com']
+	i18n: {
+		locales: ['ru', 'en'],
+		defaultLocale: 'ru',
 	}
 }

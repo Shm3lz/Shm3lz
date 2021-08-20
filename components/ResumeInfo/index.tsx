@@ -1,3 +1,4 @@
+import { useRouter } from 'next/dist/client/router';
 import ExperienceList from '../ExperienceList';
 import SkillsGrid from '../SkillsGrid';
 
@@ -8,6 +9,8 @@ interface ResumeInfoProps {
 }
 
 const ResumeInfo: React.FC<ResumeInfoProps> = ({ bio, experience, skillSections }) => {
+	const { locale } = useRouter();
+
 	return (
 		<section className="resume-info">
 			<div className="resume-info__about">

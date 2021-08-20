@@ -1,0 +1,160 @@
+{
+	"meta": {
+		"tag": "@shm3lz",
+		"name": "Влад Елисеев",
+		"age": 20,
+		"prof": "Frontend dev",
+		"location": "Москва"
+	},
+	"bio": "Фронтенд разработчик из Москвы, пытаюсь создавать интерактивные, быстрые и надежные веб приложения. В основном я работаю со стеком React/Redux/Sass/Typescript, но всегда открыт к изучению чего-то нового. Обучаюсь быстро и самостоятельно, а потому освоить любую новую технологию в кратчайшие сроки при необходимости не составит для меня труда. В сущности, фронтенд это область, в которой люди почти сразу видят плоды твоего труда и пользуются ими, а для любого из нас важно получать фидбек о своей работе в том или ином виде. Поэтому думаю, что фронтенд разработка является для меня очень хорошим способом самореализации.",
+	"experience": [
+		{
+			"title": "Фриланс",
+			"durationStart": "Сейчас",
+			"description": "Изучаю новые технологии, учусь и практикуюсь. В данный момент работаю над проектом по переносу работающего онлайн магазина с платформы shopify на стек Next.js + .Net."
+		},
+		{
+			"title": "Разработчик интерфейсов в Яндексе",
+			"durationStart": "Ноя. 2019",
+			"durationEnd": "Мар. 2020",
+			"description": "Занимался фронтенд разработкой в Яндекс.Мессенджере на стеке React/Redux/Sass/Typescript. Писал e2e тесты, работал над локализацией."
+		},
+		{
+			"title": "Поступление в МГТУ им. Баумана и начало освоения веб разработки",
+			"durationStart": "Сен. 2018",
+			"description": "Поступил в МГТУ на специальность \"Системы обработки информации и управления\", начал заниматься фронтендом, в учебных целях разработал несколько плагинов для Firefox. Изучал Vue и React, но предпочел продолжить заниматься разработкой SPA с использованием реакта."
+		}
+	],
+	"skillsSections": [
+		{
+			"title": "Основные навыки",
+			"skills": [
+				{
+					"name": "React",
+					"img": { "src": "/react-icon.svg", "alt": "React icon" },
+					"subtitle": "~2 года опыта",
+					"description": "Создаю реактивные и интерактивные приложения",
+					"href": "https://reactjs.org/"
+				},
+				{
+					"name": "Typescript",
+					"img": { "src": "/typescript.png", "alt": "Typescript icon" },
+					"subtitle": ">1 года опыта",
+					"description": "Кто еще не использует статическую типизацию в 2021?"
+				},
+				{
+					"name": "SASS",
+					"img": { "src": "/sass.png", "alt": "SASS icon" },
+					"subtitle": "Предпочитаю обычному CSS",
+					"description": "Слишком удобный, чтобы игнорировать"
+				},
+				{
+					"name": "Next.js",
+					"img": { "src": "/next-js.svg", "alt": "Next.js icon" },
+					"subtitle": "<1 года опыта",
+					"description": "Создаю быстрые, интерактивные, статичные веб приложения с возможностями СЕО"
+				},
+				{
+					"name": "Redux",
+					"img": { "src": "/redux.png", "alt": "Redux icon" },
+					"subtitle": "~2 года опыта",
+					"description": "Удобная замена React.Context стейт менеджменту, особенно с redux toolkit"
+				},
+				{
+					"name": "Webpack",
+					"img": { "src": "/webpack.svg", "alt": "Webpack icon" },
+					"subtitle": "Эти декларативные конфиги..."
+				},
+				{
+					"name": "Storybook",
+					"img": { "src": "/storybook.svg", "alt": "Storybook icon" },
+					"subtitle": "Впечатляющий инструмент для разработки UI",
+					"description": "Использую почти в каждом большом проекте"
+				},
+				{
+					"name": "ESlint",
+					"img": { "src": "/eslint.png", "alt": "Eslint icon" },
+					"subtitle": "Чистота и гигиена",
+					"description": "Особенно с прекоммит хуками"
+				},
+				{
+					"name": "Node.js",
+					"img": { "src": "/node.png", "alt": "Node icon" },
+					"subtitle": "База"
+				},
+				{
+					"name": "BEM", 
+					"subtitle": "Любимая CSS методология",
+					"description": "Строгий порядок и правила написания стилей"
+				}
+			]
+		},
+		{
+			"title": "Прочее",
+			"skills": [
+				{
+					"name": "React Native",
+					"img": { "src": "/react-icon.svg", "alt": "React Native icon" },
+					"subtitle": "Написал приложения для тайм-менеджмента"
+				},
+				{
+					"name": "Vue.js",
+					"img": { "src": "/vue.png", "alt": "Vue icon" },
+					"subtitle": "Первый опыт в создании реактивного интерфейса"
+				},
+				{
+					"name": "Puppeteer",
+					"subtitle": "Для e2e тестов"
+				},
+				{
+					"name": "Electron",
+					"img": { "src": "/electron.svg", "alt": "Electron icon" },
+					"subtitle": "Имел опыт в создании нескольких десктопных приложений"
+				},
+				{
+					"name": "NW.js",
+					"img": { "src": "/node-webkit.svg", "alt": "Nw icon" },
+					"subtitle": "Альтернатива электрону"
+				},
+				{
+					"name": "Express.js",
+					"img": { "src": "/express.png", "alt": "Express icon" },
+					"subtitle": "Приходилось писать несложные бекенды"
+				},
+				{
+					"name": "C++/Qt",
+					"subtitle": "Разрабатывал интерфейсы приложений еще со школы"
+				},
+				{
+					"name": "Python"
+				}
+			]
+		},
+		{
+			"title": "Заинтересован в",
+			"skills": [
+				{
+					"name": "Svelte",
+					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
+					"subtitle": "Становится все популярней"
+				},
+				{
+					"name": "Sveltkit",
+					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
+					"subtitle": "Какая-то альтернатива Next.js в сообществе Svelte"
+				},
+				{
+					"name": "ClojureScript",
+					"img": { "src": "/clojure.svg", "alt": "ClJs icon" },
+					"subtitle": "Альтернатива js",
+					"description": "Кто-то критикует ФП, кто-то обожает. Нужно убедиться самому."
+				},
+				{
+					"name": "Nest.js",
+					"img": { "src": "/nest.svg", "alt": "Nest icon" },
+					"subtitle": "Возможно, стану фулстеком"
+				}
+			]
+		}
+	]
+}

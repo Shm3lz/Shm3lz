@@ -1,8 +1,10 @@
 import { BsGeoAlt } from 'react-icons/bs';
 import Link from 'next/link';
 import ResumeSocialsList from '../ResumeSocialsList';
+import { useRouter } from 'next/dist/client/router';
 
 const ResumeSummarySection: React.FC<{ data: MetaInfo  }>= ({ data }) => {
+	const { locale } = useRouter();
 	return (
 		<div className="summary">
 			<div className="summary__main">
