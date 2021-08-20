@@ -8,11 +8,11 @@
 	justify-content: start;
 
 	@include bs.to(s) {
-		border: 1px solid rgb(224, 224, 224);
+		// border: 1px solid rgb(224, 224, 224);
 		border-radius: 5px;
 		margin: 5px;
 		padding-bottom: 5px;
-		background: #FFF;
+		// background: #FFF;
 	}
 
 
@@ -49,10 +49,11 @@
 
 	&__description {
 		margin-left: 5px;
+		text-align: left;
 
-		@include bs.to(s) {
-			display: none;;
-		}
+		// @include bs.to(s) {
+		// 	display: none;;
+		// }
 	}
 
 	&__more {

@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import fs from 'fs';
 import path from 'path';
 
@@ -9,7 +10,14 @@ import { Locales } from '../i18n/locales';
 
 export default function Index(props: ResumeProps) {
 	return (
-		<Resume {...props} />
+		<>
+			<Head>
+				<title>Shm3lz</title>
+				<link rel="shortcut icon" href="/favicon.ico" />
+				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+			</Head>
+			<Resume {...props} />
+		</>
 	);
 }
 

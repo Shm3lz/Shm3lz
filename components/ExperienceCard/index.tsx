@@ -11,7 +11,6 @@ const ExperienceCard: React.FC<{ data: ExperienceItem }> = ({ data }) => {
 				<h3 className="experience-card__title">{data.title}</h3>
 				<div className="experience-card__duration">{data.durationStart}{data.durationEnd && ` - ${data.durationEnd}`}</div>
 				<div className="experience-card__description">{data.description}</div>
-				<div className="experience-card__more">More...</div>
 			</div>
 		</div>
 	);
