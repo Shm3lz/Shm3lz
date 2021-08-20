@@ -31,7 +31,7 @@
 			"skills": [
 				{
 					"name": "React",
-					"img": { "src": "/react-icon.svg", "alt": "React icon" },
+					"img": { "src": "/react.svg", "alt": "React icon" },
 					"subtitle": "~2 years experience",
 					"description": "Creating interactive and reactive apps",
 					"href": "https://reactjs.org/"
@@ -94,7 +94,7 @@
 			"skills": [
 				{
 					"name": "React Native",
-					"img": { "src": "/react-icon.svg", "alt": "React Native icon" },
+					"img": { "src": "/react.svg", "alt": "React Native icon" },
 					"subtitle": "Wrote time management app for android"
 				},
 				{
