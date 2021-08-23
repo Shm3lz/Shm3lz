@@ -8,24 +8,22 @@
 	justify-content: start;
 
 	@include bs.to(s) {
-		// border: 1px solid rgb(224, 224, 224);
 		border-radius: 5px;
 		margin: 5px;
 		padding-bottom: 5px;
-		// background: #FFF;
 	}
 
 
 	&__title {
 		padding: 0;
 		margin: 0;
+		letter-spacing: 1px;
 	}
 
 	&__img {
 		display: none;
 		min-width: 50px;
 		min-height: 50px;
-		// border-radius: 50%;
 
 		position: relative;
 	}
@@ -42,29 +40,13 @@
 
 	&__duration {
 		font-size: .8rem;
-		color: gray;
 		margin-left: .5rem;
+
+		@include withTheme(color, on-background-secondary);
 	}
 
 	&__description {
 		margin-left: 5px;
 		text-align: left;
-
-		// @include bs.to(s) {
-		// 	display: none;;
-		// }
-	}
-
-	&__more {
-		display: none;
-		cursor: pointer;
-
-		@include bs.to(s) {
-			display: block;
-			margin-top: .6rem;
-			font-size: .8rem;
-			text-decoration: underline;
-			color: rgb(83, 83, 83);
-		}
 	}
 }

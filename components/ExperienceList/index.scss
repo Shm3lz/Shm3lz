@@ -35,10 +35,10 @@
 		bottom: 0;
 		width: .3rem;
 		display: block;
-		background-color: #8DAA9D;
 		left: calc(.8rem + 1px);
 		border-radius: 5px;
 
+		@include withTheme(background-color, secondary);
 		animation: timeline-grow 3s linear;
 	}
 
@@ -47,9 +47,10 @@
 		position: absolute;
 		width: .3rem;
 		left: calc(.8rem + 1px);
-		background-color: white;
 		top: 50%;
 		bottom: 0;
+
+		@include withTheme(background-color, background);
 	}
 
 	&__item + &__item {
@@ -58,9 +59,10 @@
 
 	&__timestamp {
 		font-size: .8rem;
-		background-color: #8DAA9D;
 		margin-left: 5px;
 		min-width: 5rem;
+
+		@include withTheme(background-color, secondary);
 	}
 
 	&__item {
@@ -88,13 +90,8 @@
 
 	&__timeline {
 		min-width: 8px;
-		// height: 100%;
 		align-self: stretch;
 		display: block;
-
-		// @include bs.to(m) {
-		// 	display: none;
-		// }
 	}
 
 	&__timedot {
@@ -102,26 +99,12 @@
 		z-index: 2;
 		width: 2rem;
 		height: 2rem;
-		border: 3px solid rgb(246, 246, 247);
 		border-radius: 100%;
-		background-color: rgb(140 145 150);
 		flex-shrink: 0;
 		margin-right: 7px;
-		
-		// @include bs.to(s) {
-		// 	&::after {
-		// 		z-index: 1;
-		// 		content: '';
-		// 		position: absolute;
-		// 		display: block;
-		// 		right: -50%;
-		// 		left: 110%;
-		// 		height: .3rem;
-		// 		background-color: rgb(199, 199, 199);
-		// 		top: 50%;
-		// 		transform: translateY(-50%);
-		// 		border-radius: 5px;
-		// 	}
-		// }
+
+		border: 3px solid;
+		@include withTheme(border-color, background);
+		@include withTheme(background-color, secondary);
 	}
 }

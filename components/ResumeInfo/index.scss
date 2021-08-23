@@ -11,7 +11,8 @@
 	
 	&__sec-title {
 		margin-top: 0;
-		color: $c3;
+		letter-spacing: 2px;
+		@include withTheme(color, primary);
 
 		@include bs.to(m) {
 			text-align: center;

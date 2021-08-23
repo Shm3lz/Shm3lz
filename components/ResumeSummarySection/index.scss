@@ -3,9 +3,12 @@
 .summary {
 	margin: 0 1rem 1rem 0;
 	padding: 15px 20px;
-	border: .5px solid rgb(200, 200, 200);
+	border: .5px solid;
 	border-radius: 5px;
-	background-color: rgb(253, 253, 253);
+	
+	@include withTheme(color, on-surface-3);
+	@include withTheme(background-color, surface-3);
+	@include withTheme(border-color, border);
 
 	@include bs.to(m) {
 		margin: 1rem;
@@ -15,7 +18,8 @@
 		margin-bottom: 0;
 		margin-top: 0;
 		font-size: 2rem;
-		color: $c3;
+		
+		@include withTheme(color, primary);
 
 		@include bs.to(m) {
 			text-align: center;
@@ -44,6 +48,4 @@
 		font-size: .85rem;
 		text-decoration: underline;
 	}
-
-	// &__
 }

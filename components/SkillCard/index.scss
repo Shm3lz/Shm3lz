@@ -5,11 +5,14 @@
 	position: relative;
 	padding: 10px;
 	cursor: pointer;
-	border: 1px solid rgb(212, 212, 212);
-	background-color: #fff;
+	border: 1px solid;
 	border-radius: 7px;
 	transition: transform 250ms ease;
 	align-items: center;
+
+	@include withTheme(color, on-surface-2);
+	@include withTheme(background-color, surface-2);
+	@include withTheme(border-color, border);
 
 	&__img {
 		padding: 8px 10px 5px 5px;
@@ -35,8 +38,8 @@
 	&:hover {
 		z-index: 2;
 		transform: scale(1.06);
-		border-color:rgb(160, 160, 160);
-		// box-shadow: 0 0 2px 2px gray;
+
+		@include withTheme(border-color, border-hover);
 	}
 
 	@include bs.to(s) {
@@ -58,11 +61,10 @@
 		position: absolute;
 		z-index: 3;
 		top: 73%;
-		background-color: #fff;
 		padding: 0 16px 5px 15px;
 		left: -1px;
 		right: -1px;
-		border: 1px solid rgb(160, 160, 160);
+		border: 1px solid;
 		border-radius: 7px;
 		border-top: 0;
 		border-top-left-radius: 0;
@@ -70,7 +72,10 @@
 		opacity: 0;
 		transition: all 250ms ease;
 		text-align: center;
-		box-shadow: 0 5px 2px 5px $c0;
+		
+		@include withThemeInline(box-shadow, 0 7px 2px 5px, background);
+		@include withTheme(background-color, surface-2);
+		@include withTheme(border-color, border-hover);
 	}
 
 	&_description:hover &__description {

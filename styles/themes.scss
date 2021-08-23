@@ -1,0 +1,81 @@
+$themes: (
+	light: (
+		// basic
+		primary: #3a1f32,
+		primary-variant: white,
+		secondary: #8DAA9D,
+		secondary-variant: white,
+		background: white,
+
+		// surfaces
+		surface-1: white,
+		surface-2: white,
+		surface-3: white,
+
+		// typography
+		on-primary: black,
+		on-secondary: black,
+		on-surface-1: black,
+		on-surface-2: black, //gray,
+		on-surface-3: black, //#777777,
+		
+		
+		on-background: black,
+		on-background-secondary: #777777,
+
+		border: #c8c8c8,
+		border-hover: #a0a0a0,
+
+		switch-btn: #FFC107,
+	),
+	dark: (
+		// basic
+		primary: #8c9dffaf,
+		primary-variant: white,
+		secondary: #c01f47,
+		secondary-variant: white,
+		background: #121212,
+
+		// surfaces
+		surface-1: #161616,
+		surface-2: #242424,
+		surface-3: #303030,
+
+		// typography
+		on-primary: darken(#EDEDED, 20%),
+		on-secondary: darken(#EDEDED, 20%),
+		on-surface-1: darken(#EDEDED, 50%),
+		on-surface-2: darken(#EDEDED, 35%),
+		on-surface-3: darken(#EDEDED, 15%),
+		on-background: darken(#EDEDED, 25%),
+		on-background-secondary: darken(#ededed, 40%),
+
+		border-hover: #242424,
+		border: #242424,
+
+		switch-btn: #90A4AE,
+	),
+);
+
+@mixin withTheme($property, $color) {
+	@each $themeName, $themeColor in $themes {
+		.theme_#{$themeName} & {
+			#{$property}: map-get(map-get($themes, $themeName), $color)
+		}
+	}
+}
+
+/**
+* Inline css rule
+* e.g. witThemeInline(border, 1px solid, border-color) turns into
+* .theme_<active-theme> & {
+*	border: 1px solid gray;
+* }
+*/
+@mixin withThemeInline($prop, $valueInline, $color) {
+	@each $themeName, $themeColor in $themes {
+		.theme_#{$themeName} & {
+			#{$prop}: #{$valueInline} #{map-get(map-get($themes, $themeName), $color)};
+		}
+	}
+}

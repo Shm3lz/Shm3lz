@@ -7,7 +7,7 @@ const TimeLine: React.FC<{ color?: string }> = ({ color = 'black' }) => {
 	return <span style={style} className="experience-list__timeline" />;
 }
 
-const TimeDot: React.FC<{ color?: string }> = ({ color = '#8DAA9D' }) => {
+const TimeDot: React.FC<{ color?: string }> = ({ color }) => {
 	const style = useMemo(() => ({ backgroundColor: color }), [color]);
 
 	return <div style={style} className="experience-list__timedot"></div>;
