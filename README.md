@@ -1,5 +1,13 @@
 ### Welcome
-![PersonalPage](https://img.shields.io/badge/Visit%20my-Personal%20Page-121212?style=flat-square)
+
+<!-- Todo
+- eslint
+- mdx blog
+- github actions
+- husky
+ -->
+
+[![PersonalPage](https://img.shields.io/badge/Learn%20more-About%20me-121212?style=flat-square)](https://shm3lz.hajimeru.moe)
 **Me**: working with frontend and ... *learning things, questioning existence and destiny, seeking for truth, looking for myself.*
 
 ### I'm into
@@ -18,4 +26,3 @@
 
 
 _<font size="2" color="gray">... more at [shm3lz.hajimeru.moe](https://shm3lz.hajimeru.moe)</font>_
-
