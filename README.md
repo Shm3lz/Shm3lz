@@ -6,9 +6,7 @@
 - github actions
 - husky
  -->
-
-[![PersonalPage](https://img.shields.io/badge/Learn%20more-About%20me-blue?style=flat-square)](https://shm3lz.hajimeru.moe)
-<br />
+ 
 **Me**: working with frontend and ... *learning things, questioning existence and destiny, seeking for truth, looking for myself.*
 
 ### I'm into

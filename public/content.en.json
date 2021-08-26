@@ -154,6 +154,12 @@
 					"name": "Nest.js",
 					"img": { "src": "/nest.svg", "alt": "Nest icon" },
 					"subtitle": "May be I'll become fullstack one day"
+				},
+				{
+					"name": "RxJs",
+					"img": { "src": "/rxjs.svg", "alt": "RxJs icon" },
+					"subtitle": "Observerable state management",
+					"description": "Looks exciting"
 				}
 			]
 		}
