@@ -9,7 +9,7 @@
  
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
 	<img src="public/darkholme.jpg">
-	</br>
+	<br />
 	<i style="font-size: .8rem">Frontend is 300 bucks.</i>
 </div>
 
@@ -19,7 +19,7 @@
 ![Next](https://img.shields.io/badge/-Next.js-424242?style=flat-square&logo=next.js)
 ![Sass](https://img.shields.io/badge/-Sass-424242?style=flat-square&logo=sass)
 ![Svelte](https://img.shields.io/badge/-Svelte-424242?style=flat-square&logo=svelte)
-![ClojureScript](https://img.shields.io/badge/-ClojureScript-424242?style=flat-square&logo=clojure)
+![Clojure](https://img.shields.io/badge/-ClojureScript-424242?style=flat-square&logo=clojure)
 
 
 ### Contact me
