@@ -7,7 +7,10 @@
 - husky
  -->
  
-**Me**: working with frontend and ... *learning things, questioning existence and destiny, seeking for truth, looking for myself.*
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+	<img src="public/darkholme.jpg">
+	<i style="font-size: .8rem">Frontend is 300 bucks.</i>
+</div>
 
 ### I'm into
 ![TypeScript](https://img.shields.io/badge/-TypeScript-424242?style=flat-square&logo=typescript)

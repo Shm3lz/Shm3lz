@@ -9,14 +9,21 @@
 	"bio": "I am frontend developer from Moscow, involved into creating interactive, fast, reliable and sightly UI. I'm working with React/Redux/SASS/Typescript stack, but always ready to learn new things. As I am self-taught developer, I study very quickly and can master some new techology in a short period of time if I have to. I love when I get feedback from my work, so frontend (where your job is to make UI that people see almost immediately) is a perfect ground for my self-fulfillment.",
 	"experience": [
 		{
+			"title": "Ozon.Fintech",
+			"durationEnd": "Up to now",
+			"durationStart": "Sep. 2021",
+			"description": "Frontend developer at automated bank system project on Ts/Svelte/SvelteKit stack"
+		},
+		{
 			"title": "Freelance",
-			"durationStart": "Up to now",
+			"durationStart": "Mar. 2020",
+			"durationEnd": "Aug. 2021",
 			"description": "Learning new technologies, studying and practicing. Currently working on online sneakers store's transition from shopify to Next.js+.NET"
 		},
 		{
 			"title": "Frontend dev in Yandex",
 			"durationStart": "Nov. 2019",
-			"durationEnd": "March 2020",
+			"durationEnd": "Mar. 2020",
 			"description": "Working as frontend developer in Yandex.Messenger with React/Redux/SCSS stack, writing gemini/hermione e2e tests and making i18n."
 		},
 		{
@@ -59,6 +66,16 @@
 					"img": { "src": "/redux.png", "alt": "Redux icon" },
 					"subtitle": "~2 years experience",
 					"description": "Provides good state management replacement for react context"
+				},
+				{
+					"name": "Svelte",
+					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
+					"subtitle": "Getting more and more popular"
+				},
+				{
+					"name": "Sveltkit",
+					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
+					"subtitle": "At least some Next.js alternative in Svelte community"
 				},
 				{
 					"name": "Webpack",
@@ -134,16 +151,6 @@
 		{
 			"title": "Interested in",
 			"skills": [
-				{
-					"name": "Svelte",
-					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
-					"subtitle": "Getting more and more popular"
-				},
-				{
-					"name": "Sveltkit",
-					"img": { "src": "/svelte.svg", "alt": "Svelte icon" },
-					"subtitle": "At least some Next.js alternative in Svelte community"
-				},
 				{
 					"name": "ClojureScript",
 					"img": { "src": "/clojure.svg", "alt": "ClJs icon" },

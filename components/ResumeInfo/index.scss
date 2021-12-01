@@ -11,7 +11,7 @@
 	
 	&__sec-title {
 		margin-top: 0;
-		letter-spacing: 2px;
+		// letter-spacing: 2px;
 		@include withTheme(color, primary);
 
 		@include bs.to(m) {

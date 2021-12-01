@@ -1,9 +1,9 @@
 $themes: (
 	light: (
 		// basic
-		primary: #3a1f32,
+		primary: rgba(33, 32, 31, 1),
 		primary-variant: white,
-		secondary: #8DAA9D,
+		secondary: rgba(2, 117, 125, 1),
 		secondary-variant: white,
 		background: white,
 
@@ -13,14 +13,14 @@ $themes: (
 		surface-3: white,
 
 		// typography
-		on-primary: black,
-		on-secondary: black,
-		on-surface-1: black,
-		on-surface-2: black, //gray,
-		on-surface-3: black, //#777777,
+		on-primary: rgba(33, 32, 31, 1),
+		on-secondary: rgba(33, 32, 31, 1),
+		on-surface-1: rgba(33, 32, 31, 1),
+		on-surface-2: rgba(33, 32, 31, 1), //gray,
+		on-surface-3: rgba(33, 32, 31, 1), //#777777,
 		
 		
-		on-background: black,
+		on-background: rgba(33, 32, 31, 1),
 		on-background-secondary: #777777,
 
 		border: #c8c8c8,
