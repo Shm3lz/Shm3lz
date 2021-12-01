@@ -19,7 +19,7 @@
 ![Next](https://img.shields.io/badge/-Next.js-424242?style=flat-square&logo=next.js)
 ![Sass](https://img.shields.io/badge/-Sass-424242?style=flat-square&logo=sass)
 ![Svelte](https://img.shields.io/badge/-Svelte-424242?style=flat-square&logo=svelte)
-![Clojure](https://img.shields.io/badge/-ClojureScript-424242?style=flat-square&logo=clojure)
+![Clojure](https://img.shields.io/badge/-Clojure-424242?style=flat-square&logo=clojure)
 
 
 ### Contact me
