@@ -9,6 +9,7 @@
  
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
 	<img src="public/darkholme.jpg">
+	</br>
 	<i style="font-size: .8rem">Frontend is 300 bucks.</i>
 </div>
 
